@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DemoWebShopTests {
 
     @Test
-    @DisplayName("Successful added to wish list")
+    @DisplayName("Successfully add to Wishlist")
     void successfulAddToWishlistTest() {
         String cookie = readStringFromFile("src/test/resources/files/cookie");
         String body = readStringFromFile("src/test/resources/files/body");
@@ -28,7 +28,7 @@ public class DemoWebShopTests {
     }
 
     @Test
-    @DisplayName("Added to wish list with assert")
+    @DisplayName("Successfully add to Wishlist with assert")
     void addToWishListWithSimpleAssertTest() {
         String cookie = readStringFromFile("src/test/resources/files/cookie");
         String body = readStringFromFile("src/test/resources/files/body");
@@ -47,7 +47,7 @@ public class DemoWebShopTests {
     }
 
     @Test
-    @DisplayName("Added to wish list with body assert")
+    @DisplayName("Successfully add to Wishlist with body assert")
     void addedToWishListWithBodyAssertTest() {
         String cookie = readStringFromFile("src/test/resources/files/cookie");
         String body = readStringFromFile("src/test/resources/files/body");
@@ -65,7 +65,7 @@ public class DemoWebShopTests {
     }
 
     @Test
-    @DisplayName("Added to wish list with model")
+    @DisplayName("Successfully add to Wishlist with model")
     void addedToWishListWithModel() {
         String cookie = readStringFromFile("src/test/resources/files/cookie");
         String body = readStringFromFile("src/test/resources/files/body");
