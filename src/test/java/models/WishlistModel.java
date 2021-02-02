@@ -1,4 +1,4 @@
-package tests;
+package models;
 
 import com.fasterxml.jackson.annotation.*;
 
